@@ -1,124 +1,181 @@
-* {
-  margin: 0;
-}
-::-webkit-scrollbar {
-   width: 12px;
-   background-color: #000008;
-}
-::-webkit-scrollbar-track
+html, body
 {
-	-webkit-box-shadow: inset 0 0 6px #000008;
-	border-radius: 10px;
-	background-color: #1d1f27;
+    height:100%;
+    width:100%;
+    margin: 0;
+    background-color: #FFF;
+   /* background-image:url('images/bg.png');*/
+    background-repeat:repeat;
 }
-::-webkit-scrollbar-thumb
+
+
+#topwrap
 {
-	border-radius: 10px;
-	-webkit-box-shadow: inset 0 0 6px;
-	background-color: #008696;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: #FFF;
+    text-align: center;
 }
-html {
-   overflow-y: scroll;
+
+
+#header
+{
+    text-align: center;
+    min-height: 150px;
+    background-color: #000020;
 }
-body {
-  background: #000008 none repeat scroll 0%;
-  font-size: 14pt;
-  color: #000008;
+
+
+
+#index
+{
+    background-color: #FFF;
+    min-height: 60px;
+    float: center;
 }
-a {
-  color: #008696;
-  text-decoration: none;
-  font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
+
+#index #menu
+{
+    margin: auto;
+    background-color: #FFF;
+    width: 800px;
+    float:left;
 }
-a:visited {
-  color: #008696;
-  text-decoration: none;
-  font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
+
+#menu ul
+{
+    margin: 0px 0px 0px 0px;
+    padding: 10px 0px 0px 5px;
+    list-style: none;
 }
-a:hover {
-  color: #00c686;
-  text-decoration: none;
-  font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
+
+#menu li 
+{
+    display: inline;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 20px;
 }
-a:active {
-  color: #00c686;
-  text-decoration: none;
-  font-weight: normal;
-  font-family: Arial, Helvetica, sans-serif;
+
+#menu a 
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    font: bold 15px sans-serif;
+    color: #0000AA;
+    margin: 0px 0px 0px 0px;
+    padding: 13px 4px 12px 5px;
 }
-p {
-  color: #eeeeff;
-  text-align: justify;
-  text-decoration: none;
-  text-indent: 25px;
-  font-size: 13pt;
+
+#menu a:hover, #menu a.first:hover
+{
+    #background-color: #1d1d1d;
 }
-h1 {
-	color: #ccccff;
-	text-align: center;
+
+#menu a.first
+{
+    background: none;
 }
-h2 {
-	color: #66aadd;
-	text-align: center;
+
+#menu a.chosen
+{
+    color: #3333FF;
+    text-decoration: underline;
 }
-h3 {
-	color: #66aadd;
-	text-align: center;
+
+#menu a.chosen:hover
+{
 }
-h4 {
-	color: #66aadd;
-	text-align: center;
+
+
+a img
+{
+	border: 0px;
 }
-h5 {
-	color: #66aadd;
-	text-align: center;
+
+
+
+
+
+#mainholder
+{
+    margin: 210px auto;
+    width: 900px;
+    float: center;
 }
-h6 {
-	color: #66aadd;
-	text-align: center;
+
+
+#foot
+{
+	min-height: 50px
 }
-table.topo {
-  width: 560px;
+
+
+
+
+
+
+
+
+#vmenu
+{
+    position: fixed;
+    width: 220px;
+    #height: 100%;
+    padding-top: 20px;
+    background-color: #FFF;
 }
-td.topoesquerda {
-  width: 100px;
-  text-align: left;
+
+#menulateralending 
+{
+  position: static;
+  height: 50px;
+  width: 220px;
+  border-bottom-left-radius: 13px;
+  border-bottom-right-radius: 13px;
+  background-image: url('Imagens/ListItem_Ending.png');
+  background-size: 220px 50px;
+  background-repeat: no-repeat;
+  background-position: 0px 0px; 
 }
-td.topocentro {
-  width: 100px;
-  text-align: center;
-}
-td.topodireita {
-  width: 100px;
-  text-align: right;
-}
-ul.menulateral {
+
+
+#vmenu ul
+{
   list-style: none;
   padding: 0px;
-  margin: 0px;
+  margin: 30px 0px 0px 0px;
 }
-ul li.menulateralfirst {
+
+#vmenu ul li.menulateralfirst 
+{
   height: 30px;
   margin: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #1d1f27;
   background-image: url('Imagens/ListItem_First.png');
   background-size: 25px 30px;
   background-repeat: no-repeat;
   background-position: 5px 0px; 
   padding-left: 35px; 
   text-align: left;
+  font: 15px sans-serif;
 }
-ul li.menulateral {
+
+#vmenu a
+{
+  font: bold 15px sans-serif;
+  text-decoration: none;
+  color: #008696;
+}
+
+#vmenu ul li.menulateral 
+{
   height: 30px;
   margin: 0px;
   padding-top: 0px;
   padding-bottom: 0px;
-  background-color: #1d1f27;
   background-image: url('Imagens/ListItem.png');
   background-size: 25px 30px;
   background-repeat: no-repeat;
@@ -126,7 +183,8 @@ ul li.menulateral {
   padding-left: 35px; 
   text-align: left;
 }
-ul li.menulateralcont {
+#vmenu ul li.menulateralcont 
+{
   height: 30px;
   margin: 0px;
   padding-top: 0px;
@@ -140,157 +198,89 @@ ul li.menulateralcont {
   text-align: left;
 }
 
-/*ul.a {
-  list-style-type: circle;
-}
-ul.b {
-  list-style-type: square;
-}
-ol.c {
-  list-style-type: upper-roman;
-}
-ol.d {
-  list-style-type: lower-alpha;
-}*/
-#tudo {
-  position: absolute;
-  width: 100%;
-  background-color: #000008;
-  z-index: 1;
-}
-#topo {
-  margin: auto;
-  position: relative;
-  width: 780px;
-  height: 210px;
-  padding-top: 5px;
-  background-color: #000008;
-  z-index: 2;
-}
-#titulo {
-  position: relative;
-  float: right;
-  z-index: 4;
-  width: 570px; /*800px - 200px */
-  height: 140px;
-  background-color: #000008;
-  background-image: url('Imagens/LogoEscuro.png');
-  background-attachment: scroll;
-  background-size: 570px 131px;
-  background-repeat: no-repeat;
-  background-position: center top;
-  font-family: Arial, Helvetica, sans-serif;
+
+
+
+
+
+
+#content
+{
+    float: right;
+    width: 600px;
 }
 
-#navegacao {
-  position: relative;
-  float: right;
-  width: 560px;
-  background-color: #000008;
-  bottom: 0px;
+#content h1
+{
+  font: bold 25px sans-serif;
   text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 140%;
-/* Inserir estilos de texto!!! */
+  color: #008696;
+  border-bottom-style: solid;
 }
 
-#navegacaoesquerda {
-  position: relative;
-  float: left;
-  width: 180px; /* 560/3 (aprox.) 180 */
-  background-color:#000008;
-  top: 0px;
-  padding: 3px;
-  text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14pt;
+#content p
+{
+  font: 15px sans-serif;
 }
 
-#navegacaocentro {
-  position: relative;
-  float: left;
-  width: 180px;
-  background-color:#000008;
-  bottom: 0px;
-  padding: 3px;
-  text-align: center;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14pt;
+
+
+
+
+#content #pessoal div
+{
+    position: relative;
+    margin: 30px 0px 0px 0px;
 }
 
-#navegacaodireita {
-  position: relative;
-  float: left;
-  width: 180px;
-  background-color:#000008;
-  top: 0px;
-  padding: 3px;
-  text-align: right;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14pt;
+#content h2
+{
+    margin: 50px 30px 0 30px;
+    font: bold 21px sans-serif;
+    text-decoration: underline;
+    color: #046;
 }
 
-#centro {
-  margin: auto;
-  position: static;
-  width: 780px;
-  height: 100%;
-  background-color: #000008;
-  z-index: 2;
-}
-#menulateral {
-  position: fixed;
-  border-radius: 13px;
-  width: 220px;
-/*  height: 280px;*/
-  padding-top: 20px;
-  background-color: #1d1f27;
-  text-align: right;
-  font-size:14pt;
-  z-index: 3;
-}
-#texto {
-  float: right;
-  border-radius: 13px;
-  height: 100%;
-  padding: 20px;
-  z-index: 4;
-  position: static;
-  width: 515px; /*800px - 200px */
-  min-height: 280px;
-  background-color: #1d1f27;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #eeeeff;
-  text-align: justify;
-  text-decoration: none;
-  font-size: 13pt;
-}
-#menulateralending {
-  position: static;
-  height: 50px;
-  width: 220px;
-  border-bottom-left-radius: 13px;
-  border-bottom-right-radius: 13px;
-  background-color: #1d1f27;
-  background-image: url('Imagens/ListItem_Ending.png');
-  background-size: 220px 50px;
-  background-repeat: no-repeat;
-  background-position: 0px 0px; 
+#content #pessoal h4
+{
+    margin: 50px 0px 10px 0px; 
+    font: bold 18px sans-serif;
+    text-align: left;
+    color: #113;
 }
 
-img.pessoal {
-	display: block;
-	margin: auto;
-	padding-bottom: 10px;
+
+#content #pessoal img
+{
+    margin: auto;
+    align: center;
 }
 
-div.ex {
-  border: 5px solid gray;
-  margin: 0px;
-  padding: 10px;
-  width: 220px;
-  font-family: Arial, Helvetica, sans-serif;
+#content #pessoal a
+{
+  font: 13px sans-serif;
 }
+
+
+
+#content #listapub h2
+{
+    margin: 30px 70px 10px 0px; 
+    font: bold 15px sans-serif;
+    text-align: left;
+    text-decorations: underline;
+    color: #113;
+}
+
+
+#content #listapub li
+{
+    margin: 15px 0;
+    font: 13px sans-serif;
+    color: #333;
+    text-align: justify;
+}
+
 
 /* Imagens galeria na home */
 
