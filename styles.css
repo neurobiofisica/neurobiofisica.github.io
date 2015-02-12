@@ -138,7 +138,7 @@ border-radius: 0px;
 {
     position: fixed;
     width: 220px;
-    padding-top: 0px;
+    padding-top: 20px;
     background-color: #FFF;
 }
 
@@ -267,8 +267,12 @@ border-radius: 0px;
 
 #content #pessoal img
 {
-    margin: auto;
-    align: center;
+	float: right;
+}
+
+#content #pessoal img.pessoal
+{
+	height: 150px;
 }
 
 #content #pessoal a
@@ -278,7 +282,7 @@ border-radius: 0px;
 
 
 
-#content #listapub h2
+#content #listapub h2, #content #listasoft h2
 {
     margin: 30px 70px 10px 0px; 
     font: bold 15px sans-serif;
@@ -288,7 +292,12 @@ border-radius: 0px;
 }
 
 
-#content #listapub li
+#content #listasoft ul
+{
+    margin: 30px 70px 10px 0px; 
+}
+
+#content #listapub li, #content #listasoft li
 {
     margin: 15px 0;
     font: 13px sans-serif;
@@ -296,7 +305,12 @@ border-radius: 0px;
     text-align: justify;
 }
 
-#content #listapub li a
+#content #listasoft li
+{
+    font: 15px sans-serif;
+}
+
+#content #listapub li a, #content #listasoft li a
 {
     color: #33A;
     text-decoration: none;
