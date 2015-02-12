@@ -115,7 +115,12 @@ border: 1px solid #333;
 border-radius: 10px; 
 }
 
-
+#mainholder img.noborder
+{
+margin: 0px 0px;
+border: 0px solid #333;
+border-radius: 0px;   
+}
 
 #foot
 {

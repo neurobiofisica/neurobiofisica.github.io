@@ -13,31 +13,31 @@ require_once('vindex_general.php'); ?>
       
       <ul id="gallery">
 	<li><a href="#">
-            <img src="Fotos/ganglio_peq.jpeg" alt="#1" /></a></li>
+            <img src="Fotos/ganglio_peq.jpeg" alt="#1" class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/mosca.jpg" alt="#2" /></a></li>
+            <img src="Fotos/mosca.jpg" alt="#2" class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/TEK00001.jpg" alt="#3" /></a></li>
+            <img src="Fotos/TEK00001.jpg" alt="#3" class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/Sinais.png" alt="#4" /></a></li>
+            <img src="Fotos/Sinais.png" alt="#4" class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/mapa.png" alt="#5" /></a></li>
+            <img src="Fotos/mapa.png" alt="#5" class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/peixe.png" alt="#6" /></a></li>
+            <img src="Fotos/peixe.png" alt="#6" class='noborder' /></a></li>
       </ul>
       <ul id="circle">
 	<li><a href="#">
-            <img src="Fotos/ganglio_peq.jpeg" alt="#1" /></a></li>
+            <img src="Fotos/ganglio_peq.jpeg" alt="#1" class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/mosca.jpg" alt="#2" /></a></li>
+            <img src="Fotos/mosca.jpg" alt="#2"  class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/TEK00001.jpg" alt="#3" /></a></li>
+            <img src="Fotos/TEK00001.jpg" alt="#3"  class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/Sinais.png" alt="#4" /></a></li>
+            <img src="Fotos/Sinais.png" alt="#4" class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/mapa.png" alt="#5" /></a></li>
+            <img src="Fotos/mapa.png" alt="#5" class='noborder' /></a></li>
 	<li><a href="#">
-            <img src="Fotos/peixe.png" alt="#6" /></a></li>
+            <img src="Fotos/peixe.png" alt="#6" class='noborder' /></a></li>
       </ul>
     </div>
   </div>
