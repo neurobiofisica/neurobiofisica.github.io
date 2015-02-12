@@ -14,7 +14,7 @@
   
   <div id="topwrap">
     <div id="header">
-      <img src="Imagens/LogoEscuro IFSC_AzulClaro.png" width="600px" />
+      <img src="Imagens/LogoEscuro IFSC_AzulClaro.png" width="520px" />
     </div>
     
     <div id="menu">
@@ -23,7 +23,7 @@
 	<li><a href="research.php">Research topics</a></li>
 	<li><a href="publications.php">Publications</a></li>
 	<li><a href="teammembers.php">Team members</a></li>
-	<li><a href="contact.php">Contact</a></li>
+	<li><a href="labpics.php">Lab Pictures</a></li>
       </ul>
     </div>
   </div>

@@ -9,6 +9,8 @@ require_once('vindex_general.php'); ?>
       
       <h1>Welcome to our Lab's Home Page!</h1>
       
+      <p>In this web page you'll find about our research, group and additional resources we develop and share.</p>
+      
       <ul id="gallery">
 	<li><a href="#">
             <img src="Fotos/ganglio_peq.jpeg" alt="#1" /></a></li>

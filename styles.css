@@ -23,16 +23,19 @@ html, body
 #header
 {
     text-align: center;
-    min-height: 150px;
+    min-height: 110px;
     background-color: #000020;
 }
-
+#header img
+{
+  margin: 10px 0 0 0;
+}
 
 
 #index
 {
     background-color: #FFF;
-    min-height: 60px;
+    min-height: 50px;
     float: center;
 }
 
@@ -47,7 +50,7 @@ html, body
 #menu ul
 {
     margin: 0px 0px 0px 0px;
-    padding: 10px 0px 0px 5px;
+    padding: 5px 0px 0px 5px;
     list-style: none;
 }
 
@@ -100,10 +103,18 @@ a img
 
 #mainholder
 {
-    margin: 210px auto;
+    margin: 155px auto;
     width: 900px;
     float: center;
 }
+
+#mainholder img
+{
+margin: 10px 0px;
+border: 1px solid #333;
+border-radius: 10px; 
+}
+
 
 
 #foot
@@ -122,8 +133,7 @@ a img
 {
     position: fixed;
     width: 220px;
-    #height: 100%;
-    padding-top: 20px;
+    padding-top: 0px;
     background-color: #FFF;
 }
 
@@ -207,7 +217,7 @@ a img
 #content
 {
     float: right;
-    width: 600px;
+    width: 650px;
 }
 
 #content h1
@@ -280,6 +290,14 @@ a img
     color: #333;
     text-align: justify;
 }
+
+#content #listapub li a
+{
+    color: #33A;
+    text-decoration: none;
+}
+
+
 
 
 /* Imagens galeria na home */
