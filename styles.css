@@ -275,9 +275,16 @@ border-radius: 0px;
 	height: 150px;
 }
 
-#content #pessoal a
+#content #pessoal a, #content #pessoal a:visited, #content #pessoal a:hover
 {
-  font: 13px sans-serif;
+      font: 13px sans-serif;
+      text-decoration: none;
+      color: #04A;
+}
+
+#content #pessoal a:hover
+{
+      color: #0AF;
 }
 
 
