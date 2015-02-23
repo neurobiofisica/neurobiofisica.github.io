@@ -3,7 +3,7 @@ html, body
     height:100%;
     width:100%;
     margin: 0;
-    background-color: #BCD;
+    background-color: #CCD;
    /* background-image:url('images/bg.png');*/
     background-repeat:repeat;
 }
@@ -15,7 +15,7 @@ html, body
     top:0;
     left:0;
     right:0;
-    background-color: #BCD;
+    background-color: #CCD;
     text-align: center;
 }
 
@@ -34,7 +34,7 @@ html, body
 
 #index
 {
-    background-color: #BCD;
+    background-color: #CCD;
     min-height: 50px;
     float: center;
 }
@@ -42,7 +42,7 @@ html, body
 #index #menu
 {
     margin: auto;
-    background-color: #BCD;
+    background-color: #CCD;
     width: 800px;
     float:left;
 }
@@ -139,7 +139,7 @@ border-radius: 0px;
     position: fixed;
     width: 220px;
     padding-top: 20px;
-    background-color: #BCD;
+    background-color: #CCD;
 }
 
 #menulateralending 
