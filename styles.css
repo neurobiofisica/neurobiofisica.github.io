@@ -66,7 +66,7 @@ html, body
     text-decoration: none;
     text-transform: uppercase;
     font: bold 15px sans-serif;
-    color: #0000AA;
+    color: #006080;
     margin: 0px 0px 0px 0px;
     padding: 13px 4px 12px 5px;
 }
@@ -83,8 +83,7 @@ html, body
 
 #menu a.chosen
 {
-    color: #3333FF;
-    text-decoration: underline;
+    color: #009050;
 }
 
 #menu a.chosen:hover
