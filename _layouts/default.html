@@ -18,11 +18,11 @@
     
     <div id="menu">
       <ul id="menu_setado_navegador">
-	<li><a href="index.html" class="chosen">Home Page</a></li>
-	<li><a href="research.html">Research topics</a></li>
-	<li><a href="publications.html">Publications</a></li>
-	<li><a href="teammembers.html">Team members</a></li>
-	<li><a href="labpics.html">Lab Pictures</a></li>
+        <li><a href="index.html" {% if page.curtop == 'index' %}class="chosen"{% endif %}>Home Page</a></li>
+        <li><a href="research.html" {% if page.curtop == 'research' %}class="chosen"{% endif %}>Research topics</a></li>
+        <li><a href="publications.html" {% if page.curtop == 'publications' %}class="chosen"{% endif %}>Publications</a></li>
+        <li><a href="teammembers.html" {% if page.curtop == 'teammembers' %}class="chosen"{% endif %}>Team members</a></li>
+        <li><a href="labpics.html" {% if page.curtop == 'labpics' %}class="chosen"{% endif %}>Lab Pictures</a></li>
       </ul>
     </div>
   </div>
