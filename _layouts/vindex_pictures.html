@@ -6,8 +6,8 @@ curtop: labpics
     <div id="vmenu">
       
       <ul class="menulateral">
-        <li class="menulateralfirst"><a href="labpics.html">Laboratories</a></li>
-        <li class="menulateral"><a href="grouppics.html">Our group</a></li>
+        <li class="menulateralfirst"><a {% if page.curlat == 'labpics' %} class="chosen"{% endif %} href="labpics.html">Laboratories</a></li>
+        <li class="menulateral"><a {% if page.curlat == 'grouppics' %} class="chosen"{% endif %} href="grouppics.html">Our group</a></li>
       </ul>
       <div id="menulateralending"></div>
     </div>
