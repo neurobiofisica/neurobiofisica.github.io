@@ -184,6 +184,11 @@ border-radius: 0px;
   color: #008696;
 }
 
+#vmenu a.chosen
+{
+  color: #009050;
+}
+
 #vmenu ul li.menulateral 
 {
   height: 30px;
