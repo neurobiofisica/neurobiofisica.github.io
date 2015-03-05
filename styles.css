@@ -227,6 +227,8 @@ border-radius: 0px;
 {
     float: right;
     width: 650px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 
 #content h1
