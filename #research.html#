@@ -6,19 +6,26 @@ curlat: research
 	
     <div id="content">
       <h1>Why Neurobiophysics?</h1>
-      <p>In recent past, there has been a significantly increase on biology researches
-      by the so called exact sciences, such as physics, mathemathics and computer science.
-      As an example, complex algorithm are been developed by researches without background in
-      biology for data processing of the human genome.</p>
-      <p>This seems to be particularly true in the Neurosciences. Since a few decades, exciting
-      advances have and are been reached, such as identify neuronal sinaptic pathways and receptive
-      fields in an attempt to understante de information flux from the sensory organs to the cortex
-      and back do the motor system. However we still don't have a quantitative knowledge of how this
-      this relate and how they work. Basically, we don't have a cheap robot able to buy our breakfast
-      on the nearest bakery. We only can say that we <u>understand</u> a biological system when we
-      are able to build a similar tool with similar efficiency. Physicists are confident that they
-      can make a great contribution on this effort, isolating a biological subsystem and learn from
-      the biologists what are the variables and parameters which can be controlled.</p>
+      <p>Recently, there has been a increase on biology research by
+      the so called exact sciences, such as physics, mathemathics and
+      computer science.  As an example, complex algorithm are been
+      developed by researches without background in biology for data
+      processing of the human genome.</p>
+      
+      <p>This seems to be particularly true in the
+      Neurosciences. Since a few decades, exciting advances have and
+      are been reached, such as identify neuronal sinaptic pathways
+      and receptive fields in an attempt to understante de information
+      flux from the sensory organs to the cortex and back do the motor
+      system. However we still don't have a quantitative knowledge of
+      how this this relate and how they work. Basically, we don't have
+      a cheap robot able to buy our breakfast on the nearest
+      bakery. We only can say that we <u>understand</u> a biological
+      system when we are able to build a similar tool with similar
+      efficiency. Physicists are confident that they can make a great
+      contribution on this effort, isolating a biological subsystem
+      and learn from the biologists what are the variables and
+      parameters which can be controlled.</p>
       <p>One of our goals is to analyse the brain and its constituints from the Complex Systems
       approach and to obtain a structural understading from its dynamics. To monitor the brain
       activity using technics from the physics provoked a truly revolution, allowing the researcher
