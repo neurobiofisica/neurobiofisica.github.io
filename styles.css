@@ -17,6 +17,7 @@ html, body
     right:0;
     background-color: #CCD;
     text-align: center;
+    z-index: 7;
 }
 
 
@@ -250,6 +251,7 @@ border-radius: 0px;
     position: relative;
     margin: 30px 0px 0px 0px;
     min-height: 150px;
+    z-index: -1;
 }
 
 #content #pessoal p {}
