@@ -5,6 +5,45 @@ curlat: instrumentation
 ---
 	
     <div id="content">
-      <h1>Our research</h1>
-      
+      <h1>Dedicated Computational Instrumentation</h1>
+        <p>To understand scientifially a system consist in predict how a it will modify its
+        environment and adapt itself dynamically to a certain set of stimuli. Although certain
+        systems respond linearlly, allowing reduct the comprehension of the whole to the
+        comprehension of it parts, usually biological systems are highly non-linear, 
+        showing behaviours dependent of the past history, complex dynamics and stochastic
+        properties. Study this phenomenas demands highly controlled and highly reproducible
+        experiments, only possible by dedicated instrumentation.</p>
+
+        <p>Despite the existance of several commercial solutions, as the state-of-art experiments
+        become more complex, the instrumentation complexity for parameter control increases equally,
+        which demands dedicated local solutions with high technical quality. A multidisciplinary team is 
+        necessary for such development, envolving biology, chemestry, real-time operating systems,
+        low-level driver development, digital signal processing, graphical interfaces, analog and digital
+        electronics, mathemathics and physics.</p>
+
+        <p>Our group makes state-of-art computational instrumentation for more than 20 years,
+        using programmable logic devices (FPGA - dedicated logic circuits) and electronics with
+        the most contemporary programming paradigms (Functional programming, for example) to
+        develop dedicated hardware for closed-loop experiments (biological-electrical interface, 
+        acquisition system, host computer with real-time operating system, stimuli controller and 
+        stimuli generator).</p>
+
+      <h1>VSImG and the fly visual system</h1>
+        <p>The fly has a very high speed visual perception (500Hz, in contrast with the
+        about 30Hz for humans), which makes common monitors inadequate experiments with such animal. To
+        exemplify the complexity of such requirement, for a 256x256 monochromatic picture, there 
+        is 64 KBytes per frame. In a 500Hz rate, we need a 31 MBytes/s bus speed communication. To make
+        things worse, we must assure determinism, i.e., independent of the computer usage, operational
+        system schedule, network package income, or anything else, the simuli must be generated with 
+        the same rate, with no delay or timing correction. This high-speed communication must also 
+        consider the length of the wire as well as the connectors impedance. In our laboratory, 
+        a complete visual generator was made using Tektronix<sup>&reg;</sup> X-Y video monitor drivered by 
+        dedicated electronics (analogous to a video board) that can be controlled by a computer 
+        using a common parallel port interface (old printer connector).
+        This system is controlled by a Linux Real-Time operating system (RTAI - Real Time 
+        Application Interface) with a Graphical User Interface build with Python Language.
+        More details of this equipment are described in this
+        <a href="ttp://dx.doi.org/10.1016/j.neucom.2011.02.016" target="_blank">paper</a>.
+
+        <p>
     </div>
