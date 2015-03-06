@@ -277,9 +277,13 @@ border-radius: 0px;
 }
 
 
-#content #pessoal img
+#content #pessoal img { }
+
+#content #pessoal div.PersonalPic
 {
-	float: left;
+    
+    float: left;
+    width: 300px;
 }
 
 #content #pessoal img.pessoal
