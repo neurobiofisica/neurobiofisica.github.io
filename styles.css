@@ -252,8 +252,8 @@ border-radius: 0px;
 #content #pessoal
 {
     position: relative;
-    margin: 30px 0px 0px 0px;
-    min-height: 150px;
+    margin: 20px 0px 0px 0px;
+    min-height: 120px;
     z-index: 2;
 }
 
