@@ -3,27 +3,27 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
   <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
-  <link rel=stylesheet type="text/css" href="http://neurobiofisica.ifsc.usp.br/styles.css" />  
-  
+  <link rel=stylesheet type="text/css" href="/styles.css" />
+
   <script type="text/javascript" src="js/jquery-2.0.3.min.js"></script>
   <script type="text/javascript" src="js/jquery.timer.js"></script>
-  <script type="text/javascript" src="js/galleryanim.js"></script> 
-  <script type="text/javascript" src="js/ga.js"></script> 
+  <script type="text/javascript" src="js/galleryanim.js"></script>
+  <script type="text/javascript" src="js/ga.js"></script>
 </head>
 <body>
-  
+
   <div id="topwrap">
     <div id="header">
-      <a href="http://neurobiofisica.ifsc.usp.br"><img src="http://neurobiofisica.ifsc.usp.br/Imagens/LogoEscuro IFSC_AzulClaro.png" width="520px" /></a>
+      <a href="/"><img src="/Imagens/LogoEscuro IFSC_AzulClaro.png" width="520px" /></a>
     </div>
-    
+
     <div id="menu">
       <ul id="menu_setado_navegador">
-        <li><a href="http://neurobiofisica.ifsc.usp.br" {% if page.curtop == 'index' %}class="chosen"{% endif %}>Home Page</a></li>
-        <li><a href="http://neurobiofisica.ifsc.usp.br/ResearchTopics/research.html" {% if page.curtop == 'research' %}class="chosen"{% endif %}>Research topics</a></li>
-        <li><a href="http://neurobiofisica.ifsc.usp.br/Publications/publications.html" {% if page.curtop == 'publications' %}class="chosen"{% endif %}>Publications</a></li>
-        <li><a href="http://neurobiofisica.ifsc.usp.br/TeamMembers/teammembers.html" {% if page.curtop == 'teammembers' %}class="chosen"{% endif %}>Team members</a></li>
-        <li><a href="http://neurobiofisica.ifsc.usp.br/labpics.html" {% if page.curtop == 'labpics' %}class="chosen"{% endif %}>Lab Pictures</a></li>
+        <li><a href="/" {% if page.curtop == 'index' %}class="chosen"{% endif %}>Home Page</a></li>
+        <li><a href="/ResearchTopics/research.html" {% if page.curtop == 'research' %}class="chosen"{% endif %}>Research topics</a></li>
+        <li><a href="/Publications/publications.html" {% if page.curtop == 'publications' %}class="chosen"{% endif %}>Publications</a></li>
+        <li><a href="/TeamMembers/teammembers.html" {% if page.curtop == 'teammembers' %}class="chosen"{% endif %}>Team members</a></li>
+        <li><a href="/labpics.html" {% if page.curtop == 'labpics' %}class="chosen"{% endif %}>Lab Pictures</a></li>
       </ul>
     </div>
   </div>
