@@ -273,7 +273,7 @@ border-radius: 0px;
     font: bold 18px sans-serif;
     text-align: left;
     color: #113;
-    padding: 10px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
 }
 
 
@@ -283,7 +283,7 @@ border-radius: 0px;
 {
     
     float: left;
-    width: 200px;
+    width: 175px;
 }
 
 #content #pessoal img.pessoal
