@@ -245,6 +245,36 @@ border-radius: 0px;
   font: 15px sans-serif;
 }
 
+#content figure.wrapright
+{
+    float: right;
+    margin: 10px;
+    padding: 5px;
+    font-size: .875em;
+    display:table;
+}
+
+#content figure.wrapleft
+{
+    float: left;
+    margin: 10px;
+    padding: 5px;
+    font-size: .875em;
+    display:table;
+}
+
+#content figure img
+{
+    display: block;
+    width: 100%;
+}
+
+#content figcaption
+{
+    display: table-caption;
+    caption-side: bottom;
+    padding: 0 5px 5px;
+}
 
 
 

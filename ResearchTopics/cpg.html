@@ -10,10 +10,10 @@ curlat: cpg
       <p>
 	One of the fundamental hypothesis behind modern neuroscience
 	is that emergent patterns observed in neural systems somehow
-	converge into organized patterns and produce both low level
+	converge to produce both low level
 	behaviour (motor patterns, sensing, learning, etc) and high
 	level cognitive processes (sentiments, conscience itself,
-	etc). These are the core ingredients to maintain life. One of
+	etc); the core ingredients to maintain life. One of
 	the key mechanisms underneath the generation of such complex
 	patterns is in the coordinated dynamics of neural circuits and
 	networks.  We are, however, just scrapping the surface in
@@ -26,7 +26,7 @@ curlat: cpg
 	pattern?</li>
 	<li>What are the minimal conditions to generate a similar
 	pattern, carrying the same amount of information?</li>
-	<li>is it possible to create a neural chip that perfectly
+	<li>Is it possible to create a neural chip that perfectly
 	substitutes an impaired cell?</li>
       </ul>
 
@@ -39,9 +39,15 @@ curlat: cpg
       perfect circuits to maintain vital patterns, such ass breathing,
       cardiac cycles, chewing, walking, etc.</p>
 
+        <figure class="wrapleft">
+          <img src="../Fotos/ganglio_peq.jpeg" id="cpg" name="cpg"/>
+          <figcaption><b>Figure 1:</b> A photo of a crab's CPG.
+          Each ball is the soma of a neuron.</figcaption>
+      </figure>
+
       <p>
 	One example of such network is the Stomatogastric Nervous
-	System of crustaceans, studied for over 30
+    System of crustaceans(<a href="#cpg">Figure 1</a>), studied for over 30
 	years. Prof. Reynaldo Pinto, our group leader, brought this
 	research in the earlier 2000's to Brazil, in our
 	lab. Particularly, he focused on a specific ganglion composed
@@ -60,12 +66,39 @@ curlat: cpg
       <p>
 	As physicists, our main interest is to understand these
 	aspects using Information Theory, Dynamical Systems and Signal
-	Processing.
+    Processing. We show next some of the conclusions we got by using
+    these mathematicals tools:
+    </p>
+
+        <figure class="wrapright">
+          <img src="../Fotos/mapa.png" id="fig" name="fig" />
+          <figcaption><b>Figure 2</b> First return map of a neuron
+          from the stomatogastric ganglion. The x-axis represents the
+          time interval between a spike and the next one. The y-axis represents
+          the interval between the second of these spikes and the third one.
+          The colors represent the quantity of points on that region for a long
+          time series.</figcaption>
+      </figure>
+
+    <p>
+    Despite the old belief that nerons are just "conductors"
+    to transmit the information and the processing actually occurs on
+    the set of synapses on the soma, nowadays there are plenty evidence
+    that each neuron has its own dynamics that can be tuned by protein
+    expression or chemical concentrations. On the stomatogastric ganglion
+    we have shown that each neuron can be individually described by the 
+    its geometry of his "First Return Map", i.e., a graph of the next 
+    interspike interval againist the previous one (See <a href="#fig">Figure 2</a>), 
+    and these "shapes" are dependent of the connectivity of the network.
       </p>
 
-      <p><b><u>We need here a brief description of our main results,
-      maybe linking to papers from the group.</u></b>
-      </p>
+      <p>
+    By connecting neurons to computer models using electrodes that can inject
+    a current dependent of the electric activity (Dynamic Clamp protocol), we 
+    also measured the information quantity (in bits) that is transmitted in a 
+    single synapse between cells of the stomatogastric ganglion, reflecting 
+    how much "degrees of freedom" the circuit can tune, how much behaviours it
+    can assume.
+    </p>
 
-      <p>To learn more about our research on this topic, go to <a href="">...</a></p>
     </div>
