@@ -14,6 +14,12 @@ curlat: instrumentation
         properties. Study this phenomenas demands highly controlled and highly reproducible
         experiments, only possible by dedicated instrumentation.</p>
 
+        <figure class="wrapright">
+          <img src="../Fotos/intel/P1000627.jpg" id="intel" name="intel" />
+          <figcaption><b>Figure 1: </b>A blowfly during a acquisition with a aquisition and
+          stimuli generator system.</figcaption>
+        </figure>
+
         <p>Despite the existance of several commercial solutions, as the state-of-art experiments
         become more complex, the instrumentation complexity for parameter control increases equally,
         which demands dedicated local solutions with high technical quality. A multidisciplinary team is 
@@ -21,7 +27,8 @@ curlat: instrumentation
         low-level driver development, digital signal processing, graphical interfaces, analog and digital
         electronics, mathemathics and physics.</p>
 
-        <p>Our group makes state-of-art computational instrumentation for more than 20 years,
+        <p>Our group makes state-of-art computational instrumentation (<a href="#intel">Figure 1</a>) 
+        for more than 20 years,
         using programmable logic devices (FPGA - dedicated logic circuits) and electronics with
         the most contemporary programming paradigms (Functional programming, for example) to
         develop dedicated hardware for closed-loop experiments (biological-electrical interface, 
@@ -29,6 +36,13 @@ curlat: instrumentation
         stimuli generator).</p>
 
       <h1>VSImG and the fly visual system</h1>
+
+        <figure class="wrapleft">
+          <img src="../Fotos/mosca/instrumentation.jpg" id="instrumentation" name="instrumentation" />
+          <figcaption><b>Figure 1: </b>The developed instrumentation for acquiring and generate stimuli for
+          the experiments with the blowfly.</figcaption>
+        </figure>
+
         <p>The fly has a very high speed visual perception (500Hz, in contrast with the
         about 30Hz for humans), which makes common monitors inadequate experiments with such animal. To
         exemplify the complexity of such requirement, for a 256x256 monochromatic picture, there 
@@ -37,7 +51,7 @@ curlat: instrumentation
         system schedule, network package income, or anything else, the simuli must be generated with 
         the same rate, with no delay or timing correction. This high-speed communication must also 
         consider the length of the wire as well as the connectors impedance. In our laboratory, 
-        a complete visual generator was made using Tektronix<sup>&reg;</sup> X-Y video monitor drivered by 
+        a complete visual generator was made (<a href="#instrumentation">Figure 2</a>) using Tektronix<sup>&reg;</sup> X-Y video monitor drivered by 
         dedicated electronics (analogous to a video board) that can be controlled by a computer 
         using a common parallel port interface (old printer connector).
         This system is controlled by a Linux Real-Time operating system (RTAI - Real Time 
