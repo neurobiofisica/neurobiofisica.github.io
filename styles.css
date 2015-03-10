@@ -404,7 +404,7 @@ border-radius: 0px;
 	transition: width 0.5s;
    -webkit-transition: width 0.5s;
    width: 0px;
-   height: 402px;
+   height: 360px;
    border: 0;
    opacity: 0.35;
    filter: alpha(opacity=35);
@@ -427,7 +427,7 @@ border-radius: 0px;
    list-style-type: none;
    margin: auto;
    width: 402px;
-   height: 60px;
+   height: 65px;
 }
 
 #circle li {
