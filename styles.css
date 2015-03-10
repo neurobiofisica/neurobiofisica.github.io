@@ -381,26 +381,34 @@ border-radius: 0px;
    list-style-type: none;
    overflow: hidden;
    margin: auto; /* centralizar */
-   width: 402px;
+   width: 650px;
+   text-align: center;
    /*border: 1px solid #888888;*/
    /*background: url(Fotos/fig6.jpg);*/
 }
 #gallery li {
-   float: left;
+   display: inline-block;
+   vertical-align: bottom;
+   height: 300px;
 }
 #gallery li a {
-	transition: width 0.5s;
-   -webkit-transition: width 0.5s;
-   display: block;
-   height: 360px;
-   width: 0px;
-   float: left;
+   height: 100%;
    text-decoration: none;
    cursor: default;
    opacity: 0.35;
    filter: alpha(opacity=35); /* IE 8 and earlier */
 }
 #gallery li a img {
+   transition: opacity 0.5s ease-in-out;
+   -webkit-transition: opacity 0.5s ease-in-out;
+   -moz-transition: opacity 0.5s ease-in-out;
+   -o-transition: opacity 0.5s ease-in-out;
+   height: 0px;
+   border: 0;
+   opacity: 0;
+   filter: alpha(opacity=0);
+}
+/*#gallery li a img {
 	transition: width 0.5s;
    -webkit-transition: width 0.5s;
    width: 0px;
@@ -408,15 +416,14 @@ border-radius: 0px;
    border: 0;
    opacity: 0.35;
    filter: alpha(opacity=35);
-}
+}*/
 #gallery li a.active {
-   background: #eeeeee;
-   width: 402px;
+   background: #CCD;
    opacity: 1;
    filter: alpha(opacity=100);
 }
 #gallery li a.active img {
-   width: 402px;
+   height: 300px;
    opacity: 1;
    filter: alpha(opacity=100);
 }
