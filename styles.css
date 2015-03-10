@@ -381,8 +381,7 @@ border-radius: 0px;
    list-style-type: none;
    overflow: hidden;
    margin: auto; /* centralizar */
-   width: 372px;
-   height: 300px;
+   width: 402px;
    /*border: 1px solid #888888;*/
    /*background: url(Fotos/fig6.jpg);*/
 }
@@ -393,7 +392,7 @@ border-radius: 0px;
 	transition: width 0.5s;
    -webkit-transition: width 0.5s;
    display: block;
-   height: 300px;
+   height: 380px;
    width: 0px;
    float: left;
    text-decoration: none;
@@ -405,19 +404,19 @@ border-radius: 0px;
 	transition: width 0.5s;
    -webkit-transition: width 0.5s;
    width: 0px;
-   height: 300px;
+   height: 402px;
    border: 0;
    opacity: 0.35;
    filter: alpha(opacity=35);
 }
 #gallery li a.active {
    background: #eeeeee;
-   width: 372px;
+   width: 402px;
    opacity: 1;
    filter: alpha(opacity=100);
 }
 #gallery li a.active img {
-   width: 372px;
+   width: 402px;
    opacity: 1;
    filter: alpha(opacity=100);
 }
@@ -427,7 +426,7 @@ border-radius: 0px;
    margin: 0;
    list-style-type: none;
    margin: auto;
-   width: 372px; /*6*60 + 6 = 366px */
+   width: 402px;
    height: 60px;
 }
 
@@ -445,8 +444,8 @@ border-radius: 0px;
 }
 #circle li a img {
    padding: 1px;
-	width: 60px;
-   height: 60px;
+	width: 65px; /*6*x+12 must agree if the big image size */
+   height: 65px;
    display: block;
    opacity: 0.3;
    filter: alpha(opacity=30); /* For IE8 and earlier */
