@@ -394,7 +394,7 @@ border-radius: 0px;
 #gallery li a {
    height: 100%;
    text-decoration: none;
-   cursor: default;
+   /*cursor: default;*/
    opacity: 0.35;
    filter: alpha(opacity=35); /* IE 8 and earlier */
 }
