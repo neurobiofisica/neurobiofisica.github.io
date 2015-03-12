@@ -263,10 +263,26 @@ border-radius: 0px;
     display:table;
 }
 
+
+#content figure.centered
+{
+    float: center;
+    margin: 10px auto 10px auto;
+    padding: 5px;
+    font-size: .875em;
+    display: block;
+}
+
 #content figure img
 {
     display: block;
     width: 250px;
+}
+
+#content figure.centered img
+{
+    display: block;
+    width: 500px;
 }
 
 #content figcaption
