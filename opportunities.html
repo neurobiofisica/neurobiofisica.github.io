@@ -3,8 +3,45 @@ layout: vindex_general
 title: Opportunities
 curlat: opportunities
 ---
-	
-    <div id="content">
-      <h1>Opportunities</h1>
-      
-    </div>
+
+<div id="content">
+	<h1>Opportunities</h1>
+
+	<script src="/js/scrypt.js"></script>
+	<script src="/js/nacl-fast.min.js"></script>
+
+	<form id="secretform">
+		<input type="text" id="secret" />
+		<input type="submit" value="send" />
+	</form>
+
+	<script type="text/javascript">
+	var scrypt = scrypt_module_factory();
+	var box = nacl.util.decodeBase64('I+H4mTVHhP5nOAi5b4do/6gwspxuY232Xc2l/DcQD6HYWeLgQg==');
+
+	$('#secretform').submit(function(e) {
+		var secret = $('#secret').val();
+		var key = scrypt.crypto_scrypt(
+			scrypt.encode_utf8(secret),
+			scrypt.encode_utf8('you are on the right track'),
+			16384, 8, 1, nacl.secretbox.keyLength
+		);
+		var nonce = nacl.util.decodeBase64('eW91IGFyZSBhbG1vc3QgdGhlcmUuLi4u');
+
+		if(window.location.search == '?iamthemaster') {
+			var plaintext = nacl.util.decodeUTF8(prompt('Tell me your will'));
+			console.log(nacl.util.encodeBase64(nacl.secretbox(plaintext, nonce, key)));
+			e.preventDefault();
+			return;
+		}
+
+		var m = nacl.secretbox.open(box, nonce, key);
+		if(m !== false)
+			location.href = nacl.util.encodeUTF8(m);
+		else
+			alert('Incorrect answer. Please try again.');
+
+		e.preventDefault();
+	});
+	</script>
+</div>
